@@ -1,0 +1,34 @@
+html,
+body {
+  height: 100%; /* Important: html and body must fill the viewport */
+  margin: 0;
+  background-color: aliceblue;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Fill the full viewport height */
+}
+.container {
+  display: flex;
+  height: 400px;
+  width: 400px;
+}
+
+.btn,
+.operator,
+.equal {
+  display: inline;
+  height: 50px;
+  width: 50px;
+  margin-top: 4px;
+}
+#output {
+  height: 50px;
+  width: 210px;
+  background-color: lightyellow;
+  border: 1px solid black;
+}
